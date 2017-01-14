@@ -1,3 +1,4 @@
 class Ticket < ApplicationRecord
-  belongs_to :User
+  belongs_to :user
+  belongs_to :raffle
 end
